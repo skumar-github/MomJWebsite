@@ -1,0 +1,9 @@
+var newsFeed = {
+
+
+
+	"1":		{
+			"feed":'YaHee wins Best of Show and First Place at the <a href="http://www.associatedarts.org/2012/2012openfineart.html" target="_blank">2012 Associated Arts of Ocean Shores 43rd National Fine Art Exhibition</a>.<a href="http://www.associatedarts.org/2012/2012openfineart.html" target="_blank"></a>',
+			"date":"4/2012",
+			}
+}

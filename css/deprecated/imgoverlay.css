@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.overlaybgstyle
+{
+   background-color: #000;
+   position: fixed; 
+   top: 0; 
+   left: 0;
+   width: 100%; 
+   height: 100%;
+   z-index: 19;
+   opacity: .9;
+}
+.descareastyle
+{
+	padding: 0px;
+	position: fixed;
+	z-index: 22;
+	left: 75%;
+	top: 77%;
+	width: 300px;
+	height: 200px;
+	/*opacity: 1;*/
+	text-align: left;
+	background-color: transparent;
+	color: #FFF;
+	padding-left: -30px;
+	vertical-align: middle;
+	padding-right: 30px;
+}
+
+.desctextstyle
+{
+	position: fixed;
+	z-index: 14;
+	left: 50%;
+	top: 50%;
+	width: 300px;
+	height: 100px;
+	background-color: transparent;
+	text-align: right;
+	color: #FFF;
+}
+
+.overlayimgstyle
+{
+	position: fixed;
+	z-index: 20;
+	left: 50%;
+	top:50%;
+	
+}
+
+.overlayclearstyle
+{
+	background-color: transparent;
+	color: transparent;
+	position: fixed;
+	z-index: 21;
+	left: 50%;
+	top:50%;
+	cursor: pointer;	
+}
+
+.arrowleftstyle
+{
+	background-color: transparent;
+	position: fixed;
+	z-index: 21;
+	left: 50%;
+	top: 50%;
+	height: 70px;
+	widgth: 30px;
+	cursor: pointer;
+}
+
+.arrowrightstyle
+{
+	background-color: transparent;
+
+	position: fixed;
+	z-index: 21;
+	left: 50%;
+	top: 50%;
+	height: 70px;
+	widgth: 30px;	
+	cursor: pointer;
+}
+
+#outer {height: 200px; overflow: hidden; position: relative;}
+#outer[id] {display: table; position: static;}
+
+#middle {position: absolute; top: 5%; left: 30%} /* for explorer only*/
+/*#middle[id] {display: table-cell; vertical-align: middle; width: 100%;}*/
+
+/*#inner {position: relative; top: -50%} /* for explorer only */
+/* optional: #inner[id] {position: static;} */
